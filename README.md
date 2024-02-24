@@ -18,14 +18,14 @@ Agora entre na pasta com o terminal
 `cd docker-with-nginx-php83-mysql`
 
 para utilizar no ambiente de desenvolvimento
-`desative a extensão opcache do php para não ter problemas com cache de scripts no arquivo /docker/php/Dockerfile`
+`desative a extensão opcache no arquivo /docker/php/Dockerfile para não ter problemas com cache de scripts`
 
 renomeie o arquivo de variaveis
 `cp .env.example .env`
 
 E agora basta rodar o docker
 
-`docker-compose up -d`
+`docker compose up -d`
 
 só copiar os arquivos para `./public` Pronto, sucesso!
 
