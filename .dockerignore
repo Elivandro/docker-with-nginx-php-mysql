@@ -2,7 +2,8 @@ Makefile
 README.md
 .gitignore
 .gitattributes
-.vccode
+.vscode
 **/.git
 **/.DS_Store
 **/node_modules
+**/vendor
