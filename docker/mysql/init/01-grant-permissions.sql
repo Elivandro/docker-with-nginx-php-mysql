@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'usuario'@'%' IDENTIFIED BY 'senha';
+GRANT ALL PRIVILEGES ON docker_db.* TO 'usuario'@'%';
+FLUSH PRIVILEGES;
